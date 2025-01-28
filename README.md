@@ -1,0 +1,2 @@
+# MongoDB $and and $exists operator unexpected behavior
+This repository demonstrates an unexpected behavior in MongoDB when using the `$and` and `$exists` operators together.  The issue arises when querying for documents where multiple fields might be missing.  The query behaves differently than intuitively expected. The provided code example and solution clarifies the problem and offers a workaround.  Refer to `bug.js` for the buggy code and `bugSolution.js` for the corrected version.
